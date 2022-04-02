@@ -5,14 +5,30 @@
     background-color: black;
     grid-template-columns: repeat(7, 100px);
     grid-template-rows: repeat(6, 100px);
-    width: 710px;
+    width: 690px;
     height: 600px;
-    background-image: url('https://i.giphy.com/media/9PgvV8ale90lQwfQTZ/giphy.webp');
+    background-image: url('https://i.giphy.com/media/9PgvV8ale90lQwfQTZ/giphy.webp'), url('');
 }
 
 .board{
     border-radius: 50%;
     background-color: white;
-    height: 100px;
-    width: 100px;
-};
+    /* outline:  5px solid yellow; */
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.board:hover{
+    background-color: red;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+    background-image: url('https://i.giphy.com/media/jsHNf0F6ggiR28Ynsu/giphy.webp');
+
+
+}
