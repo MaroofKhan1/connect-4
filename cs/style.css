@@ -60,3 +60,7 @@ body {
     height: 10vmin;
 }
    */
+
+#playagain {
+    justify-content: left;
+}
