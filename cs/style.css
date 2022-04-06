@@ -1,35 +1,62 @@
-.game{
-    display: grid;
-    margin: 0 auto; 
-    justify-content: center;
-    background-color: black;
-    grid-template-columns: repeat(7, 100px);
-    grid-template-rows: repeat(6, 100px);
-    width: 690px;
-    height: 600px;
-    background-image: url('https://i.giphy.com/media/9PgvV8ale90lQwfQTZ/giphy.webp'), url('');
-}
-
-.board{
-    border-radius: 50%;
-    background-color: white;
-    /* outline:  5px solid yellow; */
-    border: 2px solid black;
-    margin: 10px;
-}
-
-.board:hover{
-    background-color: red;
-}
-
-body{
+* {
+    box-sizing: border-box;
+  }
+  
+body {
     height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
-    background-color: blue;
-    background-image: url('https://i.giphy.com/media/jsHNf0F6ggiR28Ynsu/giphy.webp');
+    background-color: skyblue;
+    border: black solid;
+    /* background-image: url('https://i.giphy.com/media/8mWJvmqZgZmb6/giphy.webp'); */
 
+    }
+  
+#markers {
+    display: grid;
+    grid-template-columns: repeat(8, 10vmin);
+    gap: 2vmin;
+    margin-top: 1vmin;
+    
+  }
+  
+#markers > div {
+    height: 16vmin;
+    border-width: 10vmin;
+    border-style: solid;
+    border-color: rgb(27, 1, 92) transparent transparent;
+    transform: scale(0.6);
 
+  }
+  
+#markers > div:hover {
+    transform: scale(0.9);
+    transition: transform 150ms ease-in;
+    border-top-color: darkgray;
+    
+  }
+  
+#board {
+    display: grid;
+    grid-template-columns: repeat(7, 10vmin);
+    grid-template-rows: repeat(6, 10vmin);
+    gap: 2vmin;
+    margin: -5%;
+    border: black solid;
+    /* background-image: url('https://i.giphy.com/media/8mWJvmqZgZmb6/giphy.webp'); */
+  }
+  
+#board > div {
+    border-radius: 50%;
+    border: 0.1vmin solid grey;
+    border: red solid;
+  };
+  
+/* h1 {
+    width: 10vmin;
+    height: 10vmin;
 }
-
+   */
