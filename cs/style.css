@@ -14,11 +14,19 @@ body {
     /* background-image: url('https://i.giphy.com/media/8mWJvmqZgZmb6/giphy.webp'); */
 
     }
+
+main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
   
 #markers {
     display: grid;
-    grid-template-columns: repeat(8, 10vmin);
-    gap: 2vmin;
+    grid-template-columns: repeat(10, 9.2vmin);
+    gap: 3.5vmin;
     margin-top: 1vmin;
     
   }
@@ -54,13 +62,18 @@ body {
     border: 0.1vmin solid grey;
     border: red solid;
   };
-  
-/* h1 {
-    width: 10vmin;
-    height: 10vmin;
-}
-   */
 
-#playagain {
-    justify-content: left;
+aside {
+
+    height: 350px;
+    width: 150px;
+
+
 }
+  
+/* #playa {
+    justify-content: left;
+    margin-left: 30%;
+    align-items: center;
+    display: inline;
+} */
