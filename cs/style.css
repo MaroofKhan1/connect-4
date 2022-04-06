@@ -63,10 +63,11 @@ main {
     border: red solid;
   };
 
-aside {
+#aside {
 
-    height: 350px;
-    width: 150px;
+  height: 350px;
+  width: 150px;
+    
 
 
 }

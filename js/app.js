@@ -11,8 +11,10 @@ let turn;  // 1 or -1; 0 for nobody home in that cell
   
   /*----- cached element references -----*/
 const markerEls = [...document.querySelectorAll('#markers > div')];
+const turnmsg = document.querySelector('h2');
   
   /*----- event listeners -----*/
+document.getElementById('playagain').addEventListener('click', init);
 document.getElementById('markers').addEventListener('click', handleDrop);
   
   /*----- functions -----*/
@@ -46,6 +48,7 @@ function render() {
       });
     });
     renderMarkers();
+    turnmsg.innerText = `${COLORS[turn]}OtherPlayer`;
   }
   
   // hide/show the markers (hide if no 0's exist in that column)
@@ -66,3 +69,11 @@ function handleDrop(evt) {
     render();
   }
   
+  function checkwin() {
+    for(let i=0; i < gameBoard.length; i++){
+      for(let j=0; j < gameBoard[i].length; j++){
+        if(gameBoard[i] [j]=== turn && gameBoard[i][j+1] === turn && gameBoard[i][j+2] && gameBoard[i][j+3]
+      }
+    }
+  }
+
