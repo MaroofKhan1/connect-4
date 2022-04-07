@@ -10,17 +10,19 @@ let board;  // 2D Array where the nested arrays rep the columns
 let turn;  // 1 or -1; 0 for nobody home in that cell
 let winner;
 let tieArray;
-let message;
+// let message;
 
   /*----- cached element references -----*/
 const markerEls = [...document.querySelectorAll('#markers > div')];
 const turnMsg = document.querySelector('h2');
+const message = document.getElementById('message')
+const resetBtn = document.getElementById('reset')
 // const winnerMsg = document.querySelector('')
   
   /*----- event listeners -----*/
 document.getElementById('playAgain').addEventListener('click', init);
 document.getElementById('markers').addEventListener('click', handleDrop);
-document.getElementById('reset').addEventListener('click', init);
+resetBtn.addEventListener('click', init);
   /*----- functions -----*/
 init();
   
@@ -55,7 +57,7 @@ function init() {
       count++;
       idx--;
     }
-    return count === 4 ? renderWinner(): null; 
+    return count === 4 ? renderWinner(player): null; 
   }
   
   
@@ -74,7 +76,7 @@ function init() {
       count++;
       idx--;
     }
-    return count >= 4 ? renderWinner(): null;
+    return count >= 4 ? renderWinner(player): null;
   }
 function render() {
     // Iterate over the column arrays
@@ -99,8 +101,8 @@ function render() {
     });
   }
   
-  function renderWinner() {
-    message.innerHTML = `The winner is ${names[turn]}!`;
+  function renderWinner(player) {
+    message.innerHTML = `The winner is ${COLORS[player]}!`;
     resetBtn.style.visibility = 'visible';
     winner = true;
   }
@@ -129,7 +131,7 @@ function render() {
  
     if (tieArray.length === 42) {
         reset.style.visibility = 'visible';
-        message.innerHTML = `The winner ${COLORS[turn]}!`
+        message.innerHTML = 'its a tie'
     };
   }
   // function checkWin() {
