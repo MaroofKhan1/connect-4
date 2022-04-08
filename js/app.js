@@ -17,6 +17,7 @@ const markerEls = [...document.querySelectorAll('#markers > div')];
 const turnMsg = document.querySelector('h2');
 const message = document.getElementById('message')
 const resetBtn = document.getElementById('reset')
+
 // const winnerMsg = document.querySelector('')
   
   /*----- event listeners -----*/
