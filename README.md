@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>:school_satchel: :school: MEET YOUR CLASSMATES :school: :school_satchel: </h1>
+   <h1>:school_satchel: :school: Connect 4 :school: :school_satchel: </h1>
    <h3>https://meetyourclassmates.herokuapp.com/</h3>
    <h5>Teammate Name | Your Name | Teammate Name </h5>`                             
    <a href="https://yourportfoliolink.com" target="_blank">
