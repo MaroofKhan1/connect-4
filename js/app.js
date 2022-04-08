@@ -42,6 +42,7 @@ function init() {
     turn = 1;
     tieArray=[];
     render();
+    winner = null;
   }
   
   function checkVertWin(colIdx, rowIdx) {
@@ -110,6 +111,7 @@ function render() {
 
   // Update all impacted state, then call render
   function handleDrop(evt) {
+    if (winner) return;
     const colIdx = markerEls.indexOf(evt.target);
     if (colIdx === -1) return;
     const colArr = board[colIdx];
