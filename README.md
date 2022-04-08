@@ -1,15 +1,14 @@
 <div align="center">
    <img src="https://media4.giphy.com/media/4fYqtqvf2pHWdtRyle/giphy.gif?cid=ecf05e47g0h193743dsnj897w23euwdlffz5a0d7hpgthviv&rid=giphy.gif&ct=g"/>
    <h1> Konnect 4</h1>
-   <h3><a href="https://ajcairel.github.io/Konnect4/">Play the Game!</a></h3>
+   <h3><a href="https://maroofkhan1.github.io/connect-4/">Play the Game!</a></h3>
    <h5>Maroof Khan</h5>                             
-   <a href="[github page]" target="_blank">
-      <img src="https://img.shields.io/badge/-Portfolio:_user.github.io-darkgreen?style=flat&logo=medium"/>
+
    </a>
    <a href="https://www.linkedin.com/in/maroofkhn/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/user-blue?style=flat&``logo=Linkedin&logoColor=white">
    </a> 
-   <a href="mailto:alexanderjcairel@gmail.com" target="_blank">
+   <a href="khan.maroof6569@gmail.com" target="_blank">
       <img src="https://img.shields.io/badge/-user@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=white">
    </a>
 </div>
@@ -20,6 +19,8 @@
 
 <details>
 <summary> :gear: Functionality</summary>
+<img src="./images/HorizWin.png" height='600px'>
+<img src="./images/vertWin.png" height='600px'>
 | Description | Screenshot |
 
 
