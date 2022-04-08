@@ -15,3 +15,5 @@ which will make the game work. First define all your const to start off then sta
 done before you start working on your win logic. Start making your board inside an array. Then define the elements for your buttons. After your get the basic 
 done you want to start off by wring down how you want to work on the win logic, First you can work on the vertical and horizontal which will lead you to work on
 the diagonal win logic. 
+
+
