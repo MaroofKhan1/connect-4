@@ -68,7 +68,6 @@ main {
   
 #board > div {
     border-radius: 50%;
-    /* border: 0.1vmin solid grey; */
     border: 5px solid black;
   }
 

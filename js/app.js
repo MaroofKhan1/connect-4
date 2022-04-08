@@ -6,11 +6,10 @@ const COLORS = {
   };
   
   /*----- app's state (variables) -----*/
-let board;  // 2D Array where the nested arrays rep the columns
-let turn;  // 1 or -1; 0 for nobody home in that cell
+let board;  
+let turn;  
 let winner;
 let tieArray;
-// let message;
 
   /*----- cached element references -----*/
 const markerEls = [...document.querySelectorAll('#markers > div')];
