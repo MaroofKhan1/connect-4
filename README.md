@@ -6,10 +6,10 @@
 
    </a>
    <a href="https://www.linkedin.com/in/maroofkhn/" target="_blank">
-      <img src="https://img.shields.io/badge/-linkedin.com/in/user-blue?style=flat&``logo=Linkedin&logoColor=white">
+      <img src="https://img.shields.io/badge/-linkedin.com/in/maroofkhn-blue?style=flat&logo=Linkedin&logoColor=white">
    </a> 
    <a href="khan.maroof6569@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/-user@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=white">
+      <img src="https://img.shields.io/badge/-khan.maroof6569@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=white">
    </a>
 </div>
 
@@ -19,9 +19,12 @@
 
 <details>
 <summary> :gear: Functionality</summary>
-<img src="./images/HorizWin.png" height='600px'>
-<img src="./images/vertWin.png" height='600px'>
+   
 | Description | Screenshot |
+|:-----------:|:------------:|
+| **Horizontal Win** | <img src="./images/HorizWin.png" height='600px'>
+| **Vertical Win** | <img src="./images/vertWin.png" height='600px'>
+
 
 
 
@@ -57,7 +60,7 @@
 ## :fast_forward: Next Steps   
 
 ### Upcoming Features
-- [ ] Move from px to rem in CSS
-- [ ] add cool effects when someone win
-- [ ] Give them a pop up message
-- [ ] Add Tunes 
+- [ ] Update CSS: px to rems
+- [ ] Add winning animations
+- [ ] Add winning pop-up message
+- [ ] Add music 
